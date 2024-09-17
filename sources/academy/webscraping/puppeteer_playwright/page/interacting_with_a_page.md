@@ -89,7 +89,7 @@ await page.goto('https://www.google.com/');
 await page.click('button:has-text("Accept all")');
 
 // Type the query into the search box
-await page.type('textarea[title="Search"]', 'hello world');
+await page.type('textarea[title]', 'hello world');
 
 // Press enter
 await page.keyboard.press('Enter');
@@ -114,7 +114,7 @@ await page.goto('https://www.google.com/');
 await page.click('button + button');
 
 // Type the query into the search box
-await page.type('textarea[title="Search"]', 'hello world');
+await page.type('textarea[title]', 'hello world');
 
 // Press enter
 await page.keyboard.press('Enter');
